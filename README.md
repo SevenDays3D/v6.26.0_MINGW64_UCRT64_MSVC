@@ -23,9 +23,9 @@ Microsoft Defender,
 в.3) При сборке использовались стандартные(родные) средства cmd.exe и PowerShell. По сути, это нативная сборка на MSVC (cl.exe) в среде Visual Studio 2022.  Рекомендую к тестированию.
 
 ------ Условно старая среда Mingw64 ----------------------------------------------------------------------------------------------------------------
-Mingw64.Make.deps       - среда выполнения MSYS2 MINGW64, генератор GCC "Unix Makefiles", с инструкциями deps5.0
-Mingw64.Make.no_deps - среда выполнения MSYS2 MINGW64, генератор GCC "Unix Makefiles", без инструкций deps + Files .dll
-Mingw64.Ninja.deps       - среда выполнения MSYS2 MINGW64, генератор GCC "Ninja", с инструкциями deps5.0
+Mingw64.Make.deps     - среда выполнения MSYS2 MINGW64, генератор GCC "Unix Makefiles", с инструкциями deps5.0
+Mingw64.Make.no_deps  - среда выполнения MSYS2 MINGW64, генератор GCC "Unix Makefiles", без инструкций deps + Files .dll
+Mingw64.Ninja.deps    - среда выполнения MSYS2 MINGW64, генератор GCC "Ninja", с инструкциями deps5.0
 Mingw64.Ninja.no_deps - среда выполнения MSYS2 MINGW64, генератор GCC "Ninja", без инструкций deps + Files .dll
 
 ------- Стандартная среда виндовс ------------------------------------------------------------------------------------------------------------------
@@ -33,10 +33,10 @@ Win64.cmd        - среда выполнения cmd.exe, MSVC (cl.exe) "Visua
 Win64.PShell     - среда выполнения PowerShell, MSVC (cl.exe) "Visual Studio 2022", с инструкциями deps25.06.16
 
 ------- Новая среда на данный момент Ucrt64 --------------------------------------------------------------------------------------------------------
-Ucrt64.Make.deps        - среда выполнения MSYS2 UCRT64 генератор GCC "Unix Makefiles", с инструкциями deps25.06.16
+Ucrt64.Make.deps     - среда выполнения MSYS2 UCRT64 генератор GCC "Unix Makefiles", с инструкциями deps25.06.16
 Ucrt64.Make.no_deps  - среда выполнения MSYS2 UCRT64 генератор GCC "Unix Makefiles", без инструкций deps + Files .dll
-Ucrt64.Ninja.deps        - среда выполнения MSYS2 UCRT64 генератор GCC "Ninja", с инструкциями deps25.06.16
-Ucrt64.Ninja.no_deps  - среда выполнения MSYS2 UCRT64 генератор GCC "Ninja", без инструкций deps + Files .dll
+Ucrt64.Ninja.deps    - среда выполнения MSYS2 UCRT64 генератор GCC "Ninja", с инструкциями deps25.06.16
+Ucrt64.Ninja.no_deps - среда выполнения MSYS2 UCRT64 генератор GCC "Ninja", без инструкций deps + Files .dll
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
  Файл конфигураций config.json в каждой сборке максимально настроен, протестирован 257-раз и готов к работе ! 
